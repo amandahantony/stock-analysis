@@ -15,9 +15,14 @@ In the refactored code I created 3 additional arrays (as shown below): tickerVol
 ![Refactored Code and Arrays](Refactored_Code_Arrays.png)
 
 
-For loops were used to initialize the tickerVolumes array and loop over all rows (shown below). The tickerIndex variable was consistently used as the index
+For loops were used to initialize the tickerVolumes array and loop over all rows (shown below). The tickerIndex variable was consistently used as the index. tickerVolumes was increased for each stock based on the current stock ticker. 
 ###### Refactored Code and For Loops
 ![Refactored Code and For Loops](Refactored_Code_Loop.png)
+
+
+Conditional statements were used to gather starting price and ending price of each stock (shown below). Once again, the tickerIndex variable was used as the stock index. tickerIndex was increased respectively.
+###### Refactored Code and Conditionals
+![Refactored Code and Conditionals](Refactored_Code_Conditional.png)
 
 
 ## Summary 
