@@ -35,8 +35,8 @@ In this project, the original VBA code was refactored to improve structure and e
 ![2018 Execution Times - Original](2018_ExecutionTime_Original.png)
 
 ###### Execution Times with Refactored Code
-![2017 Execution Times - Refactored](VBA_Challenge_2017.png)
-![2018 Execution Times - Refactored](VBA_Challenge_2018.png)
+![2017 Execution Times - Refactored](Resources/VBA_Challenge_2017.png)
+![2018 Execution Times - Refactored](Resources/VBA_Challenge_2018.png)
 
 ## Summary 
 ### Advantages and Disadvantages of Refactoring Code in General
