@@ -12,7 +12,7 @@ In this project, the original VBA code was refactored to improve structure and e
 In the refactored code I created 3 additional arrays (as shown below): tickerVolumes, tickerStartingPrices and tickerEndingPrices. The tickers array from the original code was also used in the refactored code to call each stock. A tickerIndex variable was created to access the correct stock ticker index in each array. 
 
 ###### Refactored Code and Arrays
-![Refactored Code and Arrays](RefactoredCode1.png)
+![Refactored Code and Arrays](Refactored_Code_Arrays.png)
 
 
 
