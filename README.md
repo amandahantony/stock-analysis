@@ -15,7 +15,7 @@ In the refactored code I created 3 additional arrays (as shown below): tickerVol
 ![Refactored Code and Arrays](Refactored_Code_Arrays.png)
 
 
-
+For loops were used to initialize the tickerVolumes array and loop over all rows (shown below). The tickerIndex variable was consistently used as the index
 ###### Refactored Code and For Loops
 ![Refactored Code and For Loops](Refactored_Code_Loop.png)
 
