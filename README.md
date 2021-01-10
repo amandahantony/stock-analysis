@@ -12,27 +12,27 @@ In this project, the original VBA code was refactored to improve structure and e
 1) In the refactored code I created 3 additional arrays (as shown below): tickerVolumes, tickerStartingPrices and tickerEndingPrices. The tickers array from the original code was also used in the refactored code. A tickerIndex variable was created to access the correct stock ticker index in each array. 
 
 ###### Refactored Code and Arrays
-![Refactored Code and Arrays](Refactored_Code_Arrays.png)
+![Refactored Code and Arrays](Other/Refactored_Code_Arrays.png)
 
 
 2) For loops were used to initialize the tickerVolumes array and loop over all rows (shown below). The tickerIndex variable was consistently used as the index. tickerVolumes was increased for each stock based on the current stock ticker. 
 ###### Refactored Code and For Loops
-![Refactored Code and For Loops](Refactored_Code_Loop.png)
+![Refactored Code and For Loops](Other/Refactored_Code_Loop.png)
 
 
 3) Conditional statements were used to gather starting price and ending price of each stock (shown below). Once again, the tickerIndex variable was used as the stock index. tickerIndex was increased respectively.
 ###### Refactored Code and Conditionals
-![Refactored Code and Conditionals](Refactored_Code_Conditional.png)
+![Refactored Code and Conditionals](Other/Refactored_Code_Conditional.png)
 
 4) Both the original code and the refactored code were able to produce accurate stock analysis, showing the total daily volume and return of each stock in 2017 and 2018. Below are the stock analysis from 2017 and 2018. Overall, the majority of stocks had a positive annual return in 2017 compared to 2018. 
 ###### 2017 and 2018 Stock Analysis
-![2017 Stock Analysis](Stock_Analysis_2017.png)
-![2018 Stock Analysis](Stock_Analysis_2018.png)
+![2017 Stock Analysis](Other/Stock_Analysis_2017.png)
+![2018 Stock Analysis](Other/Stock_Analysis_2018.png)
 
 5)The main focus of this project is to compare the effiency of the original code and refactored code. Using the VBA timer function, I was able to record the execution time for each stock analysis. Below are the execution times for the 2017 and 2018 stock analyses with the original code and refactored code.
 ###### Execution Times with Original Code
-![2017 Execution Times - Original](2017_ExecutionTime_Original.png)
-![2018 Execution Times - Original](2018_ExecutionTime_Original.png)
+![2017 Execution Times - Original](Other/2017_ExecutionTime_Original.png)
+![2018 Execution Times - Original](Other/2018_ExecutionTime_Original.png)
 
 ###### Execution Times with Refactored Code
 ![2017 Execution Times - Refactored](Resources/VBA_Challenge_2017.png)
