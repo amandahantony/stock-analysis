@@ -6,7 +6,7 @@ Refactoring an existing VBA code to increase efficiency of stock analysis.
 Steve acquired the help of a data analyst to produce a code using VBA, that allows him to analyze stock datasets within seconds. With this code, Steve was able to retrieve the daily total volume and return of 12 different stocks in the years of 2017 and 2018. However, Steve is concerned that if he were to analyze thousands of stock datasets, the code would not work as well. 
 
 ### Purpose
-In this project, the original VBA code was refactored to improve structure and efficiency, while maintaining functionality and outputting accurate stock analysis. The execution times of the original code and new code will be compared to deduce whether refactoring did indeed improve the efficiency of the analysis.
+In this project, the original VBA code was refactored to improve structure and efficiency, while maintaining functionality and its external behaviour of stock analysis. The execution times of the original code and new code will be compared to deduce whether refactoring did indeed improve the efficiency of the analysis.
 
 ## Results 
 1) In the refactored code I created 3 additional arrays (as shown below): tickerVolumes, tickerStartingPrices and tickerEndingPrices. The tickers array from the original code was also used in the refactored code. A tickerIndex variable was created to access the correct stock ticker index in each array. 
@@ -29,7 +29,7 @@ In this project, the original VBA code was refactored to improve structure and e
 ![2017 Stock Analysis](Other/Stock_Analysis_2017.png)
 ![2018 Stock Analysis](Other/Stock_Analysis_2018.png)
 
-5)The main focus of this project is to compare the effiency of the original code and refactored code. Using the VBA timer function, I was able to record the execution time for each stock analysis. Below are the execution times for the 2017 and 2018 stock analyses with the original code and refactored code.
+5)The main focus of this project is to compare the effiency of the original code and refactored code. Using the VBA timer function, I was able to record the execution time for each stock analysis. Below are the execution times for the 2017 and 2018 stock analyses with the original code and refactored code. It is apparent that the refactored code cut down execution times by approximately 
 ###### Execution Times with Original Code
 ![2017 Execution Times - Original](Other/2017_ExecutionTime_Original.png)
 ![2018 Execution Times - Original](Other/2018_ExecutionTime_Original.png)
