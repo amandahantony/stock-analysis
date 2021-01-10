@@ -25,7 +25,7 @@ In this project, the original VBA code was refactored to improve structure and e
 ![Refactored Code and Conditionals](Refactored_Code_Conditional.png)
 
 4) Both the original code and the refactored code were able to produce accurate stock analysis, showing the total daily volume and return of each stock in 2017 and 2018. Below are the stock analysis from 2017 and 2018. Overall, the majority of stocks had a positive annual return in 2017 compared to 2018. 
-###### 2017 and 2017 Stock Analysis
+###### 2017 and 2018 Stock Analysis
 ![2017 Stock Analysis](Stock_Analysis_2017.png)
 ![2018 Stock Analysis](Stock_Analysis_2018.png)
 
@@ -39,4 +39,7 @@ In this project, the original VBA code was refactored to improve structure and e
 ![2018 Execution Times - Refactored](VBA_Challenge_2018.png)
 
 ## Summary 
-Advantage of the arrays  - array 
+### Advantages and Disadvantages of Refactoring Code in General
+
+### Advantages and Disadvantages of My Refactored Code
+-talk about the purpose of arrays, 
