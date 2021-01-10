@@ -24,6 +24,13 @@ In this project, the original VBA code was refactored to improve structure and e
 ###### Refactored Code and Conditionals
 ![Refactored Code and Conditionals](Refactored_Code_Conditional.png)
 
+4) Both the original code and the refactored code were able to produce accurate stock analysis, showing the total daily volume and return of each stock in 2017 and 2018. Below are the stock analysis from 2017 and 2018.
+###### 2017 Stock Analysis
+![2017 Stock Analysis](Stock_Analysis_2017.png)
+###### 2018 Stock Analysis
+![2018 Stock Analysis](Stock_Analysis_2018.png)
+
+
 
 ## Summary 
 Advantage of the arrays  - array 
