@@ -9,7 +9,11 @@ Steve acquired the help of a data analyst to produce a code using VBA, that allo
 In this project, the original VBA code was refactored to improve structure and efficiency, while maintaining functionality and outputting accurate stock analysis. The original code and new code will be compared to deduce whether refactoring did indeed improve the efficiency of the stock analysis.
 
 ## Results 
-In the refactored code I created 4 different array
+In the refactored code I created 3 additional arrays (as shown below): tickerVolumes, tickerStartingPrices and tickerEndingPrices. The tickers array from the original code was also used in the refactored code to call each stock. A tickerIndex variable was also created to access the correct stock ticker index in each array. 
+
+###### Refactored Code and Arrays
+
 
 
 ## Summary 
+Advantage of the arrays  - array 
