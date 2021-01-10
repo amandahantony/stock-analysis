@@ -16,6 +16,9 @@ In the refactored code I created 3 additional arrays (as shown below): tickerVol
 
 
 
+###### Refactored Code and For Loops
+![Refactored Code and For Loops](Refactored_Code_Loop.png)
+
 
 ## Summary 
 Advantage of the arrays  - array 
