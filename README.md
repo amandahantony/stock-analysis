@@ -25,9 +25,8 @@ In this project, the original VBA code was refactored to improve structure and e
 ![Refactored Code and Conditionals](Refactored_Code_Conditional.png)
 
 4) Both the original code and the refactored code were able to produce accurate stock analysis, showing the total daily volume and return of each stock in 2017 and 2018. Below are the stock analysis from 2017 and 2018. Overall, the majority of stocks had a positive annual return in 2017 compared to 2018. 
-###### 2017 Stock Analysis
+###### 2017 and 2017 Stock Analysis
 ![2017 Stock Analysis](Stock_Analysis_2017.png)
-###### 2018 Stock Analysis
 ![2018 Stock Analysis](Stock_Analysis_2018.png)
 
 5)The main focus of this project is to compare the effiency of the original code and refactored code. Using the VBA timer function, I was able to record the execution time for each stock analysis. Below are the execution times for the 2017 and 2018 stock analyses with the original code and refactored code.
