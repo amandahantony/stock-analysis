@@ -32,8 +32,8 @@ In this project, the original VBA code was refactored to improve structure and e
 
 5)The main focus of this project is to compare the effiency of the original code and refactored code. Using the VBA timer function, I was able to record the execution time for each stock analysis. Below are the execution times for the 2017 and 2018 stock analyses with the original code and refactored code.
 ###### Execution Times with Original Code
-![2017 Execution Times - Original](Stock_Analysis_2017.png)
-![2018 Execution Times - Original](Stock_Analysis_2017.png)
+![2017 Execution Times - Original](2017_ExecutionTime_Original.png)
+![2018 Execution Times - Original](2018_ExecutionTime_Original.png)
 
 ###### Execution Times with Refactored Code
 ![2017 Execution Times - Refactored](VBA_Challenge_2017.png)
