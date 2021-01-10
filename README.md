@@ -1,5 +1,5 @@
 # Stock Analysis using Visual Basic Application (VBA)
-Refactoring an existing VBA code to increase efficiency and quality of stock analysis. 
+Refactoring an existing VBA code to increase efficiency of stock analysis. 
 
 ## Overview of Project 
 ### Background
@@ -40,6 +40,7 @@ In this project, the original VBA code was refactored to improve structure and e
 
 ## Summary 
 ### Advantages and Disadvantages of Refactoring Code in General
+Refactoring codes is very common practice with many advantages. 
 
 ### Advantages and Disadvantages of My Refactored Code
--talk about the purpose of arrays, 
+The refactored VBA script included for loops and 3 additional arrays. An array is a memory location that can hold an arbitrary number of variables of the same data type. We used arrays in the refactored code so that we don't have to give each variable its own name. Instead, we defined the array (i.e tickerVolumes) and accessed the variables using their index. By using for loops and arrays, the code is not repeating over and over again. The refactored code is more maintaible and easier to troubleshoot. Furthermore, the use of arrays makes it easier to sort and analyze data, leading to increased efficiency. The refactored code also included several comments that makes it easier to read and follow. This is good practice when you are handing your code off to others. 
